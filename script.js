@@ -35,5 +35,4 @@ function createListItemHtml(itemName, itemAmount) {
                 ${itemName} - ${itemAmount}
              </li>`;
 
-
 }
