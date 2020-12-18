@@ -27,15 +27,13 @@ function addItemToShoppingList() {
     let itemHtml = createListItemHtml(itemName.value, itemAmount.value);
     console.log("Item HTML: ", itemHtml);
     let itemListRef = document.getElementById("shopping-list");
-    itemListRef.insertAdjacentHTML("afterend", itemHtml)
+    itemListRef.insertAdjacentHTML("afterend", itemHtml);
 }
 
 function createListItemHtml(itemName, itemAmount) {
-
-    return <li>
+    return  `<li>
                 ${itemName} - ${itemAmount}
-                <button type="button">Delete Item</button>
-            </li>;
+             </li>`;
+
 
 }
-
