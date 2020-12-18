@@ -30,14 +30,4 @@ function addItemToShoppingList() {
     itemListRef.insertAdjacentHTML("afterend", itemHtml);
 }
 
-function createListItemHtml(itemName, itemAmount) {
-    return '<li>'
-                Item Name - Amount
-
-               /li>
-    ';
-
-}
-
-
 
